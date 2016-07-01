@@ -87,7 +87,7 @@ class zl_twitter_widget extends WP_Widget {
 		 ?>
 
 		<?php if( $show_user_ava == 1 ){ ?>
-		<div class="zl_twit_userinfo">
+		<div class="croton_twit_userinfo">
 			<div class="left">
 				<?php if($user->profile_image_url): ?>
 				<a href="https://twitter.com/'.$username.'" >
